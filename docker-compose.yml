@@ -31,7 +31,7 @@ services:
     environment:
       DB_USER: dbadmin
       DB_HOST: db
-      DB_PASSWORD: segreta
+      DB_PASSWORD: dbaminpass
       DB_NAME: esempio
     volumes:
       - uploads:/app/uploads
